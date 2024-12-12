@@ -17,8 +17,8 @@ st.set_page_config(layout="wide")
 # Navigation Menu
 web = option_menu(
     menu_title="Welcome to ZOMATO",
-    options=["Home", "Chef Bot Assistant", "About"],
-    icons=["house", "robot", "info-circle"],
+    options=["Home", "Chef Bot Assistant"],
+    icons=["house", "robot"],
     orientation="horizontal"
 )
 
@@ -104,7 +104,7 @@ if web == "Home":
                         st.markdown(f"[📋 View Menu]({row['restaurant.menu_url']})", unsafe_allow_html=True)
                         st.markdown(f"[📷 View Photos]({row['restaurant.photos_url']})", unsafe_allow_html=True)
                     with col6:
-                        st.image(row['restaurant.thumb'], width=300)
+                        st.image(row['restaurant.thumb'], width=600)
                 st.markdown("---")
                 counter += 1
 
@@ -117,7 +117,7 @@ if web == "Home":
 
 
 # Chef Bot Assistant Page
-elif web == "Chef Bot Assistant":
+else web == "Chef Bot Assistant":
     # Your Gemini API key
     GEMINI_API_KEY = 'AIzaSyCCYNrOK99Qwj1tCHJLcOGAUZgiHcNPVtI'
 
@@ -167,27 +167,4 @@ elif web == "Chef Bot Assistant":
             st.write(response.text)
         else:
             st.write("I am only able to assist with food recipes. Please ask about recipes or cooking methods.")
-
-# About Page
-elif web == "About":
-    st.title("ChefMate: Restaurant Clustering & Cooking Guide")
-    st.subheader("🌐 Domain:Food and Beverages,Machine Learning & AI,Cloud Computing")
-    st.subheader("🎯 Objective:Build an intelligent application that clusters and recommends restaurants based on user input, such as cuisine or dishes, and integrates a chef-like chatbot assistant for guiding users in preparing recipes")
-    st.markdown("""
-    The 'Redbus Data Scraping and Filtering with Streamlit Application' aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. 
-    - **Selenium**: Automates the extraction of bus routes, schedules, and more.
-    - **Pandas**: Prepares data for analysis.
-    - **MySQL**: Stores data efficiently for retrieval.
-    - **Streamlit**: Creates an interactive interface for data visualization.
-    """)
-    st.subheader("📜 Overview:")
-    st.markdown("""
-    - **Selenium**: Automates web browsing for scraping.
-    - **Pandas**: Data manipulation and cleaning.
-    - **MySQL**: Database integration for efficient storage.
-    - **Streamlit**: Develops user-friendly web applications.
-    """)
-    st.subheader("💡 Skills:")
-    st.markdown("Selenium, Python, Pandas, MySQL, Streamlit.")
-    st.subheader("👨‍💻 Developed by: Karan Kumar M")
 
