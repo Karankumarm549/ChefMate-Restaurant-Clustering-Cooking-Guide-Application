@@ -1,1 +1,8 @@
+streamlit
+pandas
+requests
+streamlit-option-menu
+google-generative-ai
+folium
+streamlit-folium
 
