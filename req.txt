@@ -2,7 +2,7 @@ streamlit
 pandas
 requests
 streamlit-option-menu
-google-generative-ai
+google-generativeai
 folium
 streamlit-folium
 
