@@ -171,8 +171,8 @@ elif web == "Chef Bot Assistant":
 # About Page
 elif web == "About":
     st.title("ChefMate: Restaurant Clustering & Cooking Guide")
-    st.subheader("🌐 Domain: Transportation")
-    st.subheader("🎯 Objective:")
+    st.subheader("🌐 Domain:Food and Beverages,Machine Learning & AI,Cloud Computing")
+    st.subheader("🎯 Objective:Build an intelligent application that clusters and recommends restaurants based on user input, such as cuisine or dishes, and integrates a chef-like chatbot assistant for guiding users in preparing recipes")
     st.markdown("""
     The 'Redbus Data Scraping and Filtering with Streamlit Application' aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. 
     - **Selenium**: Automates the extraction of bus routes, schedules, and more.
