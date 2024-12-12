@@ -104,7 +104,7 @@ if web == "Home":
                         st.markdown(f"[📋 View Menu]({row['restaurant.menu_url']})", unsafe_allow_html=True)
                         st.markdown(f"[📷 View Photos]({row['restaurant.photos_url']})", unsafe_allow_html=True)
                     with col6:
-                        st.image(row['restaurant.thumb'], width=600)
+                        st.image(row['restaurant.thumb'], width=500)
                 st.markdown("---")
                 counter += 1
 
@@ -117,7 +117,7 @@ if web == "Home":
 
 
 # Chef Bot Assistant Page
-else web == "Chef Bot Assistant":
+elif web == "Chef Bot Assistant":
     # Your Gemini API key
     GEMINI_API_KEY = 'AIzaSyCCYNrOK99Qwj1tCHJLcOGAUZgiHcNPVtI'
 
