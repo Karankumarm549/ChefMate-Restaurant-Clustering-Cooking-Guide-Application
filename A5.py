@@ -11,8 +11,8 @@ st.set_page_config(layout="wide")
 
 # Add custom CSS to make the menu title take the full width of the screen
 # Load the image
-image = "E:12.png"
-st.image(image, use_column_width=True)
+#image = ""
+#st.image(image, use_column_width=True)
 
 # Navigation Menu
 web = option_menu(
