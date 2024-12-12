@@ -15,6 +15,7 @@ st.set_page_config(layout="wide")
 #st.image(image, use_column_width=True)
 
 # Navigation Menu
+st.title("ZOMATOOOO")
 web = option_menu(
     menu_title="Welcome to ZOMATO",
     options=["Home", "Chef Bot Assistant"],
@@ -30,6 +31,7 @@ def load_data():
 data = load_data()
 
 # Home Page
+
 if web == "Home":
     # Title
     st.title("🍴 Restaurant Recommendation System")
