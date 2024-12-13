@@ -32,7 +32,7 @@
 ---
 
 ## ***Problem Statement***
-Develop an application that clusters and recommends restaurants based on user inputs, such as preferred cuisine or dishes, while providing a chatbot assistant for recipe guidance.
+Developing an application that clusters and recommends restaurants based on user inputs, such as preferred cuisine or dishes, while providing a chatbot assistant for recipe guidance.
 
 ---
 
@@ -74,7 +74,7 @@ Develop an application that clusters and recommends restaurants based on user in
 - **Streamlit Application Development**:
   - Developed an interactive and user-friendly application using **Streamlit**.
   - Integrated the trained **K-Means model** to provide restaurant recommendations dynamically based on user inputs like cuisine or dish type.
-  - Implemented interactive **visualizations** (e.g., maps with markers, charts for ratings and costs) using **Streamlit's plotting libraries**.
+  - Implemented interactive **visualizations** (e.g., maps with markers) using **Streamlit's plotting libraries**.
   - Designed the UI to display restaurant clusters with user-friendly filters and dynamic tables.
 
 - **Chatbot Integration**:
